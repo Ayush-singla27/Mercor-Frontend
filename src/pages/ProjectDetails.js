@@ -92,7 +92,7 @@ export default function ProjectDetails() {
     setAudioURL(url);
   };
   console.log(time);
-  const base_url = "https://backendchadgpt.onrender.com";
+  const base_url = "https://mercor-backend01.onrender.com";
   const handleSubmit = async (event) => {
     event.preventDefault(); // prevent the default form submission behavior
     const formData = new FormData(); // get the form data
